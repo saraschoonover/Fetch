@@ -2,12 +2,21 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
 
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
 .searchdog {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
+  margin-bottom: 200px;
 }
 
 .dogImage {
@@ -20,4 +29,9 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
+}
+
+button {
+  border-radius: 30px;
 }
