@@ -21,3 +21,11 @@ get("/dog_image") do
   @dog_hash = @parsed_dog_data.dig("message")
   erb(:dog_result)
 end
+
+get("/random_dog") do 
+  random_dog_url = "https://dog.ceo/api/breeds/image/random"
+  @get_random_dog = HTTP.get(random_dog_url).to_s
+  @parsed_random_data = JSON.parse(@get_random_dog)
+  @random_dog_hash = @parsed_random_data.fetch("message")
+  erb(:random)
+end

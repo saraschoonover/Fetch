@@ -1,0 +1,23 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchdog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dogImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.randomDog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
