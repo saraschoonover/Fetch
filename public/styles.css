@@ -35,3 +35,10 @@ h2 {
 button {
   border-radius: 30px;
 }
+
+.return {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
