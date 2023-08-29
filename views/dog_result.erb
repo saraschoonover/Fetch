@@ -1,9 +1,15 @@
 <h1><%=@user_dog.capitalize%></h1>
 
-<div class="dogImage">
-<img src=<%= @dog_hash%>></img>
-
+<div>
+<% if @user_dog.downcase == "dachshund"%>
+<%= "I have a Dachshund too!" %>
+<% end %>
 </div>
+
+<div class="dogImage">
+<img src=<%= @dog_hash %> style="border-radius: 50%">
+</div>
+
 
 <div class="return">
   <a href="/dogs">Back to Search</a>
