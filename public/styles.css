@@ -1,8 +1,25 @@
+body {
+  background-color: #FFE8D6;
+}
+
 h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 300px;
+  font-family: 'Dancing Script', cursive;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.dogResultHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 100px;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h2 {
@@ -11,6 +28,7 @@ h2 {
   align-items: center;
   margin-top: 100px;
 }
+
 .searchdog {
   display: flex;
   justify-content: center;
@@ -36,7 +54,7 @@ h2 {
 
 button {
   border-radius: 30px;
-  background-color: aquamarine;
+  background-color: #CB997E;
 }
 
 .return {
@@ -54,7 +72,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  background-color: #DDBEA9;
+  margin-top: 300px;
 }
 
 .card-body {
@@ -67,5 +86,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-around;
-
+  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }

@@ -1,10 +1,4 @@
-<h1><%=@user_dog.capitalize%></h1>
-
-<div>
-<% if @user_dog.downcase == "dachshund"%>
-<%= "I have a Dachshund too!" %>
-<% end %>
-</div>
+<h1 class="dogResultHeader"><%=@user_dog.capitalize%></h1>
 
 <div class="dogImage">
 <img src=<%= @dog_hash %> style="border-radius: 50%">
