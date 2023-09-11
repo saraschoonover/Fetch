@@ -20,6 +20,7 @@ get("/dog_image") do
 
   @parsed_dog_data = JSON.parse(@raw_response)
   @dog_hash = @parsed_dog_data.dig("message")
+
   erb(:dog_result)
 end
 

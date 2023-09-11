@@ -8,3 +8,9 @@
 <div class="return">
   <a href="/dogs">Back to Search</a>
 </div>
+
+<h1>
+<% if @user_dog == "" %>
+   <%="You must enter a dog breed! Please try again." %>
+ <% end %>
+</h1>
