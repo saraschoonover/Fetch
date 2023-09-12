@@ -1,9 +1,11 @@
-<h1 class="dogResultHeader"><%=@user_dog.capitalize%></h1>
-
-<div class="dogImage">
-<img src=<%= @dog_hash %> style="border-radius: 50%">
+<div class="animal-card d-flex justify-content-around">
+<div class="card" style="text-align: center; width: 28rem;  margin-top: 200px; margin: 0 auto;">
+  <img class="card-img-top" src=<%= @dog_hash %> alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title"><%=@user_dog.capitalize%></h5>
+  </div>
 </div>
-
+</div>
 
 <div class="return">
   <a href="/dogs">Back to Search</a>
@@ -11,6 +13,6 @@
 
 <h1>
 <% if @user_dog == "" %>
-  raise <%="You must enter a dog breed! Please try again." %>
+   <%="You must enter a dog breed! Please try again." %>
  <% end %>
 </h1>

@@ -1,12 +1,12 @@
 body {
-  background-color: #FFE8D6;
+  background-color: white;
 }
 
 h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+ 
   font-family: 'Dancing Script', cursive;
 font-family: 'M PLUS Rounded 1c', sans-serif;
 font-family: 'Roboto', sans-serif;
@@ -31,7 +31,7 @@ h2 {
 
 .searchdog {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   margin-top: 50px;
   margin-bottom: 200px;
@@ -54,7 +54,11 @@ h2 {
 
 button {
   border-radius: 30px;
-  background-color: #CB997E;
+  background-color: #f5cd3a;
+}
+
+button:hover {
+  color: #f5ebe0;
 }
 
 .return {
@@ -64,16 +68,14 @@ button {
   margin-top: 40px;
 }
 
-img {
-  border-radius: 50%;
-}
+
 
 .card {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #DDBEA9;
-  margin-top: 300px;
+  background-color: white;
+  
 }
 
 .card-body {
@@ -88,4 +90,15 @@ img {
   justify-content: space-around;
   font-family: 'Lato', sans-serif;
   font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRvZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60");
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+}
+
+.animal-card{
+  margin-top: 200px;
 }

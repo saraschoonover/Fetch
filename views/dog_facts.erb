@@ -1,9 +1,15 @@
-<div class="card" style="text-align: center; width: 18rem; margin: 0 auto; text-align:center; margin-top: 200px;">
-  <div class="card-body fs-3">
-     <%= @facts_hash %>
+<div class="animal-card d-flex justify-content-around">
+<div class="card" style="d-flex; justify-content: center; align-items: center; width: 28rem;  ;">
+
+  <img class="card-img-top" src="https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRvZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60">
+
+  <div class="card-body">
+    <p class="card-text fs-4"><%= @facts_hash %></p>
+    
   </div>
+</div>
 </div>
 
 <div class="return">
-  <a href="/dogs">Back to Search</a>
+  <a href="/dogs">Back Home</a>
 </div>
